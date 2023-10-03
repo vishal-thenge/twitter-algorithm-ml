@@ -140,7 +140,7 @@ trailrunner==1.2.1
 traitlets==5.9.0
 typing-inspect==0.8.0
 typing_extensions==4.4.0
-urllib3==1.26.13
+urllib3==1.26.17
 usort==1.0.5
 virtualenv==20.19.0
 wandb==0.13.11
