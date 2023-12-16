@@ -1,6 +1,6 @@
 absl-py==1.4.0
 aiofiles==22.1.0
-aiohttp==3.8.3
+aiohttp==3.9.0
 aiosignal==1.3.1
 appdirs==1.4.4
 arrow==1.2.3
@@ -12,7 +12,7 @@ backcall==0.2.0
 black==22.6.0
 cachetools==5.3.0
 cblack==22.6.0
-certifi==2022.12.7
+certifi==2023.7.22
 cfgv==3.3.1
 charset-normalizer==2.1.1
 click==8.1.3
@@ -36,7 +36,7 @@ fsspec==2022.11.0
 gast==0.4.0
 gcsfs==2022.11.0
 gitdb==4.0.10
-GitPython==3.1.31
+GitPython==3.1.35
 google-api-core==2.8.2
 google-auth==2.16.0
 google-auth-oauthlib==0.4.6
@@ -46,7 +46,7 @@ google-crc32c==1.5.0
 google-pasta==0.2.0
 google-resumable-media==2.4.1
 googleapis-common-protos==1.56.4
-grpcio==1.51.1
+grpcio==1.53.2
 h5py==3.8.0
 hypothesis==6.61.0
 identify==2.5.17
@@ -72,7 +72,7 @@ mypy-extensions==0.4.3
 nest-asyncio==1.5.6
 ninja==1.11.1
 nodeenv==1.7.0
-numpy==1.22.0
+numpy==1.22.2
 nvidia-cublas-cu11==11.10.3.66
 nvidia-cuda-nvrtc-cu11==11.7.99
 nvidia-cuda-runtime-cu11==11.7.99
@@ -96,12 +96,12 @@ protobuf==3.20.2
 psutil==5.9.4
 ptyprocess==0.7.0
 pure-eval==0.2.2
-pyarrow==10.0.1
+pyarrow==14.0.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pydantic==1.9.0
+pydantic==1.10.13
 pyDeprecate==0.3.2
-Pygments==2.14.0
+Pygments==2.15.0
 pyparsing==3.0.9
 pyre-extensions==0.0.27
 pytest==7.2.1
@@ -109,7 +109,7 @@ pytest-mypy==0.10.3
 python-dateutil==2.8.2
 pytz==2022.6
 PyYAML==6.0.0
-requests==2.28.1
+requests==2.31.0
 requests-oauthlib==1.3.1
 rsa==4.9
 scikit-build==0.16.3
@@ -140,13 +140,15 @@ trailrunner==1.2.1
 traitlets==5.9.0
 typing-inspect==0.8.0
 typing_extensions==4.4.0
-urllib3==1.26.13
+urllib3==1.26.18
 usort==1.0.5
 virtualenv==20.19.0
 wandb==0.13.11
 wcwidth==0.2.6
 websocket-client==1.4.2
-Werkzeug==2.2.3
+Werkzeug==2.3.8
 wrapt==1.14.1
 yarl==1.8.2
 zipp==3.12.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
