@@ -135,7 +135,7 @@ torchmetrics==0.11.0
 torchrec==0.3.2
 torchsnapshot==0.1.0
 torchx==0.3.0
-tqdm==4.64.1
+tqdm==4.66.3
 trailrunner==1.2.1
 traitlets==5.9.0
 typing-inspect==0.8.0
