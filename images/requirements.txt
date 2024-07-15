@@ -150,3 +150,4 @@ Werkzeug==2.2.3
 wrapt==1.14.1
 yarl==1.8.2
 zipp==3.12.1
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
