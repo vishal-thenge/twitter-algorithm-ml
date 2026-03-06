@@ -62,7 +62,7 @@ keras==2.9.0
 Keras-Preprocessing==1.1.2
 libclang==15.0.6.1
 libcst==0.4.9
-Markdown==3.4.1
+Markdown==3.8.1
 MarkupSafe==2.1.1
 matplotlib-inline==0.1.6
 moreorless==0.4.0
